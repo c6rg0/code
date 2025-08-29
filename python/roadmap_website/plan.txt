@@ -1,0 +1,62 @@
+Programming plan:
+> The plan is to make an interactive, compact, and helpfull website (or application if all fails) to put across content regarding:
+  different programing languages - understandable descriptions, common applications, project ideas, unique libraries, compatability etc.
+
+> I'm going to try and graph different "pipelines", common routes in the industry, links to good tutorials, and I'll try to explain the basics
+  and advanced information.
+
+Specifics;
+(phase one):
+> Setting up flask and other components (the skeleton);
+	> Using bootstrap, css and java script to make a template,
+	> Attempting to make a scrollable path {*1} (linear at first),
+	> Making the path divergent.
+% Can't spend too long on this stage - I can always finish the writting
+  of content in my spare time.
+
+(phase two):
+> Implementation of sql;
+	> Setting things up for future use.
+
+(phase three):
+> Implementation of an account system;
+	> User accounts will be stored in a database.
+	> Try to encrypt data while being requested and posted.
+
+(phase four):
+> Implementation of algorithms;
+	> To search through information/web-pages,
+	> Allowing the user to browse through user profiles.
+
+(phase five):
+> Filling in more information - doing research and analysis.
+
+(phase six):
+> Adding in forums, blogs and more;
+	> Users will have the ability to curate their own content, and 
+	  will be able to fix problems with pre-existing tutorials etc.
+
+(phase seven):
+> Making sure everything is working, and also backed up,
+> Smoothing things out, should be grinding the course work,
+> Testing (but surface level tbh).
+
+(phase eight):
+> Adding a global chat where people can discuss things, and just have
+  casual talks.
+
+(phase nine?):
+> Just coursework atp kid...
+ 
+
+(phase four):
+> Implementing a forum/blog like system, where people can exchange 
+  information about programming, can give tips, help others with 
+  errors, make tutorials, make already exisiting tutorials clearer etc.
+
+Libraries and other stuff:
+$ Python:
+> flask
+$ Javascript:
+> jQuery, bootstrap, vin.js, mermaid, D3, graphviz {*1}
+

@@ -1,0 +1,1 @@
+These projects that I have done in the past use an IDE called "greenfoot". You have to have it installed to run the games, and using VSC won't work (unless you do some voodoo anyway). Peace.

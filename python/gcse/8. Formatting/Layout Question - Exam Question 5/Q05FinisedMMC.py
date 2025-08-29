@@ -1,0 +1,41 @@
+# -------------------------------------------------------------------
+# Global variables
+# -------------------------------------------------------------------
+# =====> Use only the most appropriate structure(s)
+resultsTable =[["Conservative Party", 13830975, 43.7],
+               ["Labour Party", 10181243, 32.3],
+               ["Liberal Democrat Party", 3564231, 11.6],
+               ["Scottish National Party", 1131279, 3.9],
+               ["Green Party", 853632, 2.8]]
+partyTable = ["Conservative Party", "Labour Party", "Liberal Democrat Party", "Scottish National Party", "Green Party"]
+voteTable = [13830975, 10181243, 3564231, 1131279, 853632]
+percentTable = [43.7, 32.3, 11.6, 3.9, 2.8]
+# =====> End of choice of data structure(s)
+layout = ""
+
+# =====> Initialise the variables
+totalVote =0
+totalPercent =0.0
+
+# -------------------------------------------------------------------
+# Main program
+# -------------------------------------------------------------------
+# =====> Complete the layout string to format the headings
+layout = "{:<24}|{:>10}|{:^12}"                         
+# =====> Print the headings
+print(layout.format("Party","Votes","Percentage"))
+# =====> Complete the code to print a separator
+print ("-"*50)
+# =====> Complete the layout string to format the data
+layout = "{:<24}|{:>10}|{:^12.2f}"
+# =====> Run totals and print the rows
+for rows in resultsTable:
+    print(layout.format(rows[0],rows[1],rows[2]))
+    totalVote=totalVote+rows[1]
+    totalPercent=totalPercent+rows[2]
+# =====> Add the code to print a separator
+print ("-"*50)
+# =====> Complete the layout string to format the footer
+layout = "{:>24}|{:^10}|{:^12.2f}"             
+# =====> Print the footer
+print(layout.format("Total",totalVote,totalPercent))

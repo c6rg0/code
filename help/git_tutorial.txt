@@ -1,0 +1,11 @@
+#Setting up the ssh key (in the CLI - not including github)
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25518
+
+#Doing the git shenanegans 
+git init
+git commit -m "First commit!"
+git remote -v
+git remote set-url origin git@github.com:c6rg0/Naughts-and-crosses
+git push origin master

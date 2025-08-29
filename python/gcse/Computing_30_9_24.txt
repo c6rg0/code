@@ -1,0 +1,30 @@
+Computing - 30/9/24
+
+Worksheet:
+1a) It would call the subroutine to open the file for writing.
+b) If menu 1 is chosen, it is opened in write mode, if menu 2 is, its opened in append mode.
+c) testsResultsfile, studentName, studentMark
+d) studentName, studentMark
+e) 
+   saveToFile("append")
+   else if option...
+
+
+2a) It sets a buffer, and then lets you change the name of the file. It opens the file for binary file writing. After,
+   it reads the picture file at 50000 bytes at a time. And while the file hasn't finished writing, it prints dots.
+
+b) 477KB / 50000 bytes = (477 x 1080)/50000 = 10 times
+
+c) It outputs dots, and once the file has finished writing, it will stop printing the dots, and it will print a space.
+
+
+Using exception handling statements (try, except), you can intercept and handle exceptions so that your program does not 
+crash - and it will do what the programmer specifies:
+
+try:
+	a = int(input("Enter a number"))
+except:
+	print("Enter a number")
+
+
+

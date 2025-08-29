@@ -1,0 +1,21 @@
+Lets not be oblivious now, I'm in a drought for ideas.
+
+Ideas:
+A browser that renders html, css, and json content.
+Will implement a free dns and website hosting system using github.
+
+A real time chat, using flask or django, which includes a chat search.
+The chat search will use algorithms and data query techniques.
+
+A 3d game (or investigation into 3d rendering).
+This is obviously more challenging, since I will need to learn c++ and 
+OpenGl(Already learnt to render a window).
+
+An overcomplicated
+
+A web scraping and data manipulation project - could be on the job 
+market, or on social media trends? I would find some sort of theory or 
+idea that can be linked in to this (in order to get motivation).
+
+
+

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=yVel
+comment1.target=Player(double)
+comment2.params=
+comment2.target=Player()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=boolean\ spacePressed()
+comment5.params=
+comment5.target=boolean\ isAlive()
+numComments=6
